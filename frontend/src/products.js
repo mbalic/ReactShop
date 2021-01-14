@@ -120,3 +120,5 @@ const products = [
       "numReviews": 1
     }
   ]
+
+  export default products
