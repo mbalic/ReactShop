@@ -6,7 +6,7 @@ import Message from '../components/Message'
 import { addToCart, removeFromCart } from '../actions/cartActions'
 
 const CartScreen = ({ match, location, history }) => {
-    const productId = match.params.div
+    const productId = match.params.id
 
     // location.search ==> ?qty=1 (after url)
     const qty = location.search ? Number(location.search.split('=')[1]) : 1
